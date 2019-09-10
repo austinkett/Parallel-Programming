@@ -1,3 +1,6 @@
+Note:
+The OMP program is just OpenMP. The MPI program is a combination of OpenMP and MPI.For some reason MPI wouldn't compile if I used and functions in my code and I spend two days trying to debug it to no avail, therefore it is all in the main (sorry). 
+
 Compile OMP program with:
 icc -qopenmp omp_test.c -o omp_test
 Run it with:
