@@ -1,0 +1,11 @@
+Compile OMP program with:
+icc -qopenmp omp_test.c -o omp_test
+Run it with:
+qsub omp_test.sub
+
+Compile MPI program with:
+mpiicc -qopenmp -std=c99 mpiTest.c -o mpiTest
+Run MPI program with:
+qsub mpiTest.sub
+
+It uses the files in OMP_WORK to run (They go in the directory no need to move files out). Everything in the program runs correctly to the best of my knowledge. The times for the OMP program are from approximately 2.72GB of data. The times for the MPI program are from approximately 6.96GB of data. Files are reused and queued up a lot so I did not have to store a lot.

@@ -1,0 +1,36 @@
+Thread 0: Finishing after 130.563622
+Time taken on 1 nodes: 130.598999
+Thread 1: Finishing after 100.277551
+Thread 0: Finishing after 102.454143
+Time taken on 2 nodes: 102.485498
+Thread 3: Finishing after 57.053964
+Thread 2: Finishing after 57.380806
+Thread 0: Finishing after 57.599220
+Thread 1: Finishing after 58.633089
+Time taken on 4 nodes: 58.663785
+Thread 3: Finishing after 28.653166
+Thread 7: Finishing after 28.787524
+Thread 1: Finishing after 29.534912
+Thread 0: Finishing after 29.560482
+Thread 5: Finishing after 29.688935
+Thread 4: Finishing after 29.711561
+Thread 2: Finishing after 29.765942
+Thread 6: Finishing after 30.791827
+Time taken on 8 nodes: 30.822233
+Thread 5: Finishing after 14.812153
+Thread 11: Finishing after 14.900425
+Thread 2: Finishing after 15.030975
+Thread 15: Finishing after 15.279622
+Thread 14: Finishing after 15.428354
+Thread 3: Finishing after 15.453172
+Thread 7: Finishing after 15.484218
+Thread 0: Finishing after 15.544228
+Thread 6: Finishing after 15.544347
+Thread 1: Finishing after 15.656375
+Thread 10: Finishing after 15.780257
+Thread 9: Finishing after 15.855183
+Thread 4: Finishing after 15.881767
+Thread 13: Finishing after 15.885314
+Thread 8: Finishing after 15.920586
+Thread 12: Finishing after 16.207600
+Time taken on 16 nodes: 16.238302

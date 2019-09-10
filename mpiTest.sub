@@ -1,0 +1,12 @@
+#!/bin/sh -l
+# FILENAME:  mpiTest.sub
+#PBS -l nodes=8:ppn=20,walltime=00:10:00
+#PBS -q scholar
+
+cd $PBS_O_WORKDIR
+uniq <$PBS_NODEFILE >nodefile
+export OMP_NUM_THREADS=16
+mpiexec -n 1 -machinefile nodefile ./mpiTest
+mpiexec -n 2 -machinefile nodefile ./mpiTest
+mpiexec -n 4 -machinefile nodefile ./mpiTest
+mpiexec -n 8 -machinefile nodefile ./mpiTest
